@@ -19,7 +19,7 @@ Read more about `xlog` on [Dailymotion engineering blog](http://engineering.dail
 - Custom output (JSON, [logfmt](https://github.com/kr/logfmt), …)
 - Automatic gathering of request context like User-Agent, IP etc.
 - Drops message rather than blocking execution
-- Easy access logging thru [github.com/rs/xaccess](https://github.com/rs/xaccess)
+- Easy access logging thru [github.com/cool-rest/xaccess](https://github.com/cool-rest/xaccess)
 
 Works with both Go 1.7+ (with `net/context` support) and Go 1.6 if used with [github.com/cool-rest/xhandler](https://github.com/cool-rest/xhandler).
 

@@ -15,7 +15,7 @@
 //     - Custom output (JSON, logfmt, …)
 //     - Automatic gathering of request context like User-Agent, IP etc.
 //     - Drops message rather than blocking execution
-//     - Easy access logging thru github.com/rs/xaccess
+//     - Easy access logging thru github.com/cool-rest/xaccess
 //
 // It works best in combination with github.com/cool-rest/xhandler.
 package xlog // import "github.com/cool-rest/xlog"

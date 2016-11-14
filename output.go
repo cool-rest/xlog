@@ -11,7 +11,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/rs/xid"
+	"github.com/cool-rest/xid"
 	"github.com/cool-rest/xlog/internal/term"
 )
 
@@ -358,7 +358,7 @@ func NewLogstashOutput(w io.Writer) Output {
 	})
 }
 
-// NewUIDOutput returns an output filter adding a globally unique id (using github.com/rs/xid)
+// NewUIDOutput returns an output filter adding a globally unique id (using github.com/cool-rest/xid)
 // to all message going thru this output. The o parameter defines the next output to pass data
 // to.
 func NewUIDOutput(field string, o Output) Output {

@@ -7,7 +7,7 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/rs/xid"
+	"github.com/cool-rest/xid"
 )
 
 type key int

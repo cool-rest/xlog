@@ -7,7 +7,7 @@ import (
 	"net/http"
 
 	"github.com/cool-rest/xhandler"
-	"github.com/rs/xid"
+	"github.com/cool-rest/xid"
 	"golang.org/x/net/context"
 )
 
