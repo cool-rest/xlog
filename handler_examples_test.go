@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/justinas/alice"
+	"github.com/cool-rest/alice"
 	"github.com/cool-rest/xlog"
 )
 
