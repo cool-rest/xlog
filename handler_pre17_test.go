@@ -8,7 +8,7 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/rs/xhandler"
+	"github.com/cool-rest/xhandler"
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/net/context"
 )

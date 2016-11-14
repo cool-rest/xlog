@@ -17,8 +17,8 @@
 //     - Drops message rather than blocking execution
 //     - Easy access logging thru github.com/rs/xaccess
 //
-// It works best in combination with github.com/rs/xhandler.
-package xlog // import "github.com/rs/xlog"
+// It works best in combination with github.com/cool-rest/xhandler.
+package xlog // import "github.com/cool-rest/xlog"
 
 import (
 	"fmt"
